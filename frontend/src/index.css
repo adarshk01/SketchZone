@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "January Snack";
-  src: url("./assets/JanuarySnack.ttf") format("truetype");
+  font-family: "Jhon Cream";
+  src: url("./assets/JhonCream.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

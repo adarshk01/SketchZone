@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         january: ["January Snack", "sans-serif"],
+        cream: ["Jhon Cream", "sans-serif"],
       },
     },
   },

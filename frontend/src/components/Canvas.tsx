@@ -56,16 +56,14 @@ export function Canvas() {
   }, []);
   return (
     <div>
-      <div className="border bg-white  rounded-xl overflow-hidden">
-        <div>
-          {" "}
-          <canvas
-            ref={canvasRef}
-            width={840}
-            height={520}
-            // style={{ border: "1px solid black" }}
-          />
-        </div>
+      <div className="border bg-white h-[520px] w-[840px] rounded-xl overflow-hidden drop-shadow-2xl">
+        {" "}
+        <canvas
+          ref={canvasRef}
+          width={840}
+          height={520}
+          // style={{ border: "1px solid black" }}
+        />
       </div>
     </div>
   );
